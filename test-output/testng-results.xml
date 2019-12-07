@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-12-07T19:42:53 IST" name="Suite" finished-at="2019-12-07T19:43:17 IST" duration-ms="24233">
+    <groups>
+      <group name="one">
+        <method signature="ParalletGet1.GetTitle1()[pri:0, instance:flipkart.flipkart.ParalletGet1@69fb6037]" name="GetTitle1" class="flipkart.flipkart.ParalletGet1"/>
+        <method signature="ParalletGet1.GetTitle()[pri:0, instance:flipkart.flipkart.ParalletGet1@2892dae4]" name="GetTitle" class="flipkart.flipkart.ParalletGet1"/>
+        <method signature="ParallelGet2.Main()[pri:0, instance:flipkart.flipkart.ParallelGet2@6a6afff2]" name="Main" class="flipkart.flipkart.ParallelGet2"/>
+      </group> <!-- one -->
+      <group name="two">
+        <method signature="ParalletGet1.GetTitle()[pri:0, instance:flipkart.flipkart.ParalletGet1@2892dae4]" name="GetTitle" class="flipkart.flipkart.ParalletGet1"/>
+      </group> <!-- two -->
+    </groups>
+    <test started-at="2019-12-07T19:42:53 IST" name="Test3" finished-at="2019-12-07T19:43:17 IST" duration-ms="24233">
+      <class name="flipkart.flipkart.ParalletGet1">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:flipkart.flipkart.ParalletGet1@2892dae4]" started-at="2019-12-07T19:42:53 IST" name="beforeMethod" finished-at="2019-12-07T19:43:12 IST" duration-ms="19326" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="GetTitle()[pri:0, instance:flipkart.flipkart.ParalletGet1@2892dae4]" started-at="2019-12-07T19:43:12 IST" name="GetTitle" finished-at="2019-12-07T19:43:12 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTitle -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:flipkart.flipkart.ParalletGet1@2892dae4]" started-at="2019-12-07T19:43:12 IST" name="afterMethod" finished-at="2019-12-07T19:43:17 IST" duration-ms="4811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- flipkart.flipkart.ParalletGet1 -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>

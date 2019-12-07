@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite  name="Suite">
+  <groups>
+  <run><include name ="one"/></run>
+  </groups>
+  <test name="Test">
+  
+    <classes>
+      <class name="flipkart.flipkart.GetTitle"/>
+      <class name="flipkart.flipkart.LoginFun"/>
+    </classes>
+  </test> <!-- Test -->
+<!--   <test name="Testdd">
+    <classes>
+      <class name="flipkart.flipkart.GetTitle"/>
+      <class name="flipkart.flipkart.LoginFun"/>
+    </classes>
+  </test> Test -->
+</suite> <!-- Suite -->

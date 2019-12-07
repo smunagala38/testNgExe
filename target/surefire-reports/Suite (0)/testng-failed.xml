@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite (0)]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="one"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="flipkart.flipkart.LoginFun">
+        <methods>
+          <include name="Main"/>
+        </methods>
+      </class> <!-- flipkart.flipkart.LoginFun -->
+      <class name="flipkart.flipkart.GetTitle">
+        <methods>
+          <include name="GetTitle"/>
+          <include name="GetTitle1"/>
+        </methods>
+      </class> <!-- flipkart.flipkart.GetTitle -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite (0)] -->
